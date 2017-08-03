@@ -144,9 +144,11 @@ body
 								a
 									color: #fff
 									text-decoration: none
+									transition: all .5s ease
+
 									&:hover
-										
-										border-bottom: 2px solid #fff
+										color: #999
+
 
 								&:last-child
 									margin-right: 0
@@ -179,6 +181,7 @@ body
 
 				.slider-title
 					font-size: 25px
+					cursor: default
 		
 					&:after
 						content: ''
@@ -197,9 +200,13 @@ body
 						width: 236px
 						min-height: 300px
 						border: 1px solid #ccc
+						cursor: pointer
+						transition: all .5s ease
 
 						&:last-child
 							margin-right: 0
+						&:hover
+							transform: scale(1.1)
 
 						.slider-main-item-img
 							width: 100%
